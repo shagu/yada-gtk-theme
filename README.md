@@ -12,8 +12,8 @@ to install all dependencies. You can then modify and run the `./build.sh` in thi
 
 ## Screenshots
 
-![preview1](preview1.png)
+![preview1](res/preview1.png)
 *(Awesome WM, VS Code, Eye of Mate, Thunar)*
 
-![preview1](preview2.png)
+![preview1](res/preview2.png)
 *(Awesome WM, Pluma, Eye of Mate, Thunar, Conky)*
