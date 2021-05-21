@@ -44,7 +44,11 @@ meson setup --prefix=$(dirname $(pwd)) -Dvariants=dark build/
 meson install -C build/
 cd -
 
-step "Building Theme Package"
+step "Build Theme Release Package"
+mkdir -p release
 cd share/themes
-tar cfJ ../../yada-gtk.tar.xz yada-gtk
+tar cfJ ../../release/yada-gtk.tar.xz yada-gtk
 cd -
+
+step "Update Repository"
+cp -rf share/themes/yada-gtk/* .
