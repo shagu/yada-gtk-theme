@@ -7,7 +7,7 @@ but rather a script that, replaces the default colors to a more monochrome and d
 The latest build can be found at the [Release Page](https://github.com/shagu/yada-gtk-theme/releases).
 
 To adjust the colors to your likings and build your own, please follow the [Arc-Theme instructions](https://github.com/jnsh/arc-theme/blob/master/INSTALL.md)
-to install all dependencies. You can then modify and run the `./build.sh` in this repository.
+to install all dependencies. You can then modify and run the `Makefile` in this repository.
 
 
 ## Screenshots
