@@ -13,7 +13,7 @@ to install all dependencies. You can then modify and run the `./build.sh` in thi
 ## Screenshots
 
 ![preview1](preview1.png)
-*(Awesome-WM, Alacritty, Thunar, Engrampa, Mousepad)*
+*(Awesome-WM, VS-Code, Eye-of-Mate, Thunar)*
 
 ![preview1](preview2.png)
-*(Awesome-WM, Alacritty, VS-Code, Eye of Mate)*
+*(Awesome-WM, Pluma, Eye-ofMate, Thunar, Conky)*
