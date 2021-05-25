@@ -24,6 +24,7 @@ fetch:
 colors:
 	$(call step,"Replace Colors")
 	$(call replace,"#383C4A","#1a1a1a","Background [Main]")
+	$(call replace,"#353945","#1a1a1a","Background [Sidebar]")
 	$(call replace,"#404552","#212121","Background [Widgets]")
 	$(call replace,"#444A58","#212121","Button")
 	$(call replace,"#3E4350","#000000","Button [Inactive]")
@@ -48,7 +49,7 @@ release:
 	$(call step,"Build Theme Release Package")
 	mkdir -p release
 	cd share/themes && tar cfJ ../../release/yada-gtk.tar.xz yada-gtk
-	
+
 theme:
 	$(call step,"Update Yada Theme")
 	cp -rf share/themes/yada-gtk/* .
