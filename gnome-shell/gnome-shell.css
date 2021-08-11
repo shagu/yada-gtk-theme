@@ -1189,7 +1189,6 @@ StScrollBar {
 
 .workspace-background {
   border-radius: 30px;
-  background-color: rgba(26, 26, 26, 0.95);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .pie-timer {
@@ -1347,7 +1346,7 @@ StScrollBar {
 
 #dash {
   font-size: 11pt;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 0 10px; }
   #dash .placeholder {
     background-image: none;
@@ -2065,9 +2064,7 @@ StScrollBar {
   .login-dialog-user-list-item:rtl .user-widget {
     padding-left: 1em; }
   .login-dialog-user-list-item .login-dialog-timed-login-indicator {
-    height: 2px;
-    margin-top: 6px;
-    background-color: #BAC3CF; }
+    margin-top: 6px; }
   .login-dialog-user-list-item:selected .login-dialog-timed-login-indicator {
     background-color: #ffffff; }
 
@@ -2094,6 +2091,10 @@ StScrollBar {
   text-align: center;
   font-weight: normal;
   padding-top: 16px; }
+
+.login-dialog-timed-login-indicator {
+  height: 2px;
+  background-color: #BAC3CF; }
 
 .login-dialog-prompt-layout {
   padding-top: 24px;
