@@ -1,0 +1,37 @@
+/* XPM */
+static char *hide_prelight[] = {
+/* columns rows colors chars-per-pixel */
+"24 16 15 1 ",
+"  c #18191A",
+". c #19191A",
+"X c #18191B",
+"o c gray10",
+"O c #191A1C",
+"+ c #1B1B1E",
+"@ c #23262A",
+"# c #23262B",
+"$ c #2F333A",
+"% c #30333A",
+"& c #31333C",
+"* c #31343D",
+"= c #373B45",
+"- c #393D47",
+"; c #C4C7CC",
+/* pixels */
+"oooooooooooooooooooooooo",
+"ooooooooo. XX .ooooooooo",
+"ooooooooO#%==%@Ooooooooo",
+"ooooooo+*------&+ooooooo",
+"ooooooO*--------&Ooooooo",
+"ooooo.#----------@.ooooo",
+"ooooo $----------$ ooooo",
+"oooooX=--;;;;;;--=Xooooo",
+"oooooX=--;;;;;;--=Xooooo",
+"ooooo $----------$ ooooo",
+"ooooo.@----------@.ooooo",
+"ooooooO&--------&Ooooooo",
+"ooooooo+&------&+ooooooo",
+"ooooooooO@$==$@Ooooooooo",
+"ooooooooo. XX .ooooooooo",
+"oooooooooooooooooooooooo"
+};
