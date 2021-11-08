@@ -690,7 +690,7 @@ StScrollBar {
     width: 0; }
 
 #panel #panelActivities.panel-button > *, #panel .panel-button.clock-display #panelActivities.clock > * {
-  background-image: url("dark-assets/panel/activities.svg");
+  background-image: url("common-assets/panel/activities.svg");
   background-size: contain;
   width: 24px;
   height: 24px;
